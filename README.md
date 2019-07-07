@@ -1,2 +1,0 @@
-# myfirstGit
-Reactjs Project/Website 
