@@ -24,5 +24,21 @@
             margin-left: 2px;
             margin-right: 2px;
         }
+        
+        
+    }
+    .left_body{
+        display: inline-grid;
+        hr{
+            width: 157%;
+        }
+
+        .input_label{
+            font-family: cursive;
+        }
+
+        .left_input{
+            width: 250px;
+        }
     }
 }
