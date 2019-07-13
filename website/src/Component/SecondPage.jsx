@@ -1,7 +1,7 @@
 //@flow
 
 import React from 'react';
-import { Card, CardBody, CardHeader, Input, Button } from 'reactstrap';
+import { Card, CardBody, CardHeader, Input, Button, Label } from 'reactstrap';
 import './styles.scss';
 
 class SecondPage extends React.Component{
@@ -19,7 +19,8 @@ class SecondPage extends React.Component{
             </CardHeader>
             <CardBody className='left_body'>
                 <hr></hr>
-                Experimental Page(Details Will be there Very Soon)
+                <Label for="card_input" className='input_label'>Enter Any Number</Label>
+                <Input type="text" id="card_input" className="left_input"></Input>
             </CardBody>
         </Card>
         );
