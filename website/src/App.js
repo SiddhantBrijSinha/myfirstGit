@@ -1,5 +1,6 @@
 import React from 'react';
 import FrontPage from './Component/FrontPage';
+import SecondPage from './Component/SecondPage';
 
 class App extends React.Component{
 
@@ -8,6 +9,7 @@ class App extends React.Component{
     return (
       <div>
         <FrontPage />
+        <SecondPage/>
       </div>
     );
   }

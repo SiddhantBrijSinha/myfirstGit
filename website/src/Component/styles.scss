@@ -1,0 +1,28 @@
+.card_left{
+    width: 400px;
+    height: 800px;
+    background: yellow;
+    overflow: auto;
+    .left_header{
+        display: -webkit-inline-box;
+        margin-top: 14px;
+        margin-bottom: 4px;
+        margin-left: 4px;
+
+        h1{
+            margin: 0px;
+            font-size: 20px;
+        }
+        p{
+            margin: 0px;
+            font-size: 12px;
+            margin-top: 30px;
+            font-family: serif;
+        }
+        span{
+            font-size: 35px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+    }
+}
